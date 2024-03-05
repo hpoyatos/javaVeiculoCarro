@@ -20,6 +20,13 @@ public class Carro extends Veiculo {
         this.placa = placa;
     }
 
-
+    // método locomover
+    @Override
+    public void locomover() {
+        // System.out.println("O "+marca+" "+modelo+" está se locomovendo!");
+        // desafio faz o locomover ficar assim, responder assim: O Fiat Uno Vivace preto
+        // ano 2012 está se locomovendo!
+        System.out.println("O " + this.getMarca() + " " + this.getModelo() + " " + this.getCor() + " ano " + this.getAno() + " de placa "+this.getPlaca()+" está rodando!");
+    }
     
 }

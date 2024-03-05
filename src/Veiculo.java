@@ -60,10 +60,10 @@ public abstract class Veiculo {
     }
 
     // método locomover
-  public void locomover() {
+    public void locomover() {
     // System.out.println("O "+marca+" "+modelo+" está se locomovendo!");
     // desafio faz o locomover ficar assim, responder assim: O Fiat Uno Vivace preto
     // ano 2012 está se locomovendo!
-    System.out.println("O " + this.getMarca() + " " + this.getModelo() + " " + this.getCor() + " ano " + this.getAno() + " está se locomovendo!");
+        System.out.println("O " + this.getMarca() + " " + this.getModelo() + " " + this.getCor() + " ano " + this.getAno() + " está se locomovendo!");
     }
 }
